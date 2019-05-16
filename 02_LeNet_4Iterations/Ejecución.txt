@@ -1,0 +1,21 @@
+stinoco@SergioLaptop:~/ENES-UNAM/RedesNeuronales/2018-1/EjemplosConvNetsWithKeras/02_LeNet_4Iterations$ python3 keras_LeNet.py 
+Using TensorFlow backend.
+60000 train samples
+10000 test samples
+Train on 48000 samples, validate on 12000 samples
+Epoch 1/4
+2017-11-20 22:15:35.158095: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-20 22:15:35.158120: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-20 22:15:35.158128: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+48000/48000 [==============================] - 165s - loss: 0.1831 - acc: 0.9444 - val_loss: 0.0615 - val_acc: 0.9815
+Epoch 2/4
+48000/48000 [==============================] - 160s - loss: 0.0515 - acc: 0.9841 - val_loss: 0.0461 - val_acc: 0.9859
+Epoch 3/4
+48000/48000 [==============================] - 159s - loss: 0.0341 - acc: 0.9896 - val_loss: 0.0389 - val_acc: 0.9886
+Epoch 4/4
+48000/48000 [==============================] - 165s - loss: 0.0232 - acc: 0.9926 - val_loss: 0.0432 - val_acc: 0.9867
+ 9984/10000 [============================>.] - ETA: 0s 
+Test score: 0.0363095724774
+Test accuracy: 0.9874
+dict_keys(['val_loss', 'loss', 'val_acc', 'acc'])
+stinoco@SergioLaptop:~/ENES-UNAM/RedesNeuronales/2018-1/EjemplosConvNetsWithKeras/02_LeNet_4Iterations$
